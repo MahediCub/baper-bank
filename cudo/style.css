@@ -1,0 +1,20 @@
+
+.positions div{
+    border: 2px dashed red;
+    width: 200px;
+}
+.girl{
+    position: relative;
+    top: -200px;
+    
+}
+
+.ring{
+    position: relative;
+    z-index: 1;
+}
+.empty-div{
+    background-color: #FF900E;
+    width: 5px;
+    height: 60px;
+}

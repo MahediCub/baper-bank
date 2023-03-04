@@ -1,0 +1,67 @@
+
+.container{
+    display: flex;
+    gap: 10px;
+  
+    
+}
+
+.box{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    
+   
+}
+
+
+
+@media screen and(max-width:576px)  {
+
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+  @media screen and (min-width: 577px) and (max-width: 992px){
+    .box{
+        background-color: brown;
+    }
+    
+}
+
+
+/**Baksho***/
+
+.box-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    grid-template-rows: repeat(3, 200px) ;
+}
+
+.bakso{
+    background-color: mediumvioletred;
+    border-radius: 10px;
+}
+#box2{
+    grid-column: 2;
+    grid-row: span 3;
+}
+#box3{
+    grid-column: 1;
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 576px){
+    .box-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #box2{
+        grid-column: 1;
+    }
+    
+}
+
+

@@ -1,0 +1,19 @@
+ul li{
+
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+ul{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li:hover{
+    background-color: aquamarine;
+}

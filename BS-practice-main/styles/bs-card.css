@@ -1,0 +1,12 @@
+.main-heading{
+    background: linear-gradient(to right, #4C58FF,#DA3EF5);
+}
+.profile-img{
+    width: 120px;
+    margin-top: -70px;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
